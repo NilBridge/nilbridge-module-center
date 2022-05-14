@@ -1,0 +1,11 @@
+{
+  "name": "ModuleShop",
+  "version": "1.0.0",
+  "description": "Center of modules for NilBridge",
+  "main": "./lib/main.js",
+  "keywords": [
+    "nilbridge"
+  ],
+  "author": "Sbaoor",
+  "license": "MIT"
+}
