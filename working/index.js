@@ -1,7 +1,7 @@
 const path = require('path');
 
 const publish_path = path.join(__dirname, '../', 'modules_publish');
-const public_path = path.join(__dirname, '../', 'public');
+const public_path = path.join(__dirname, '../', 'docs');
 const tmp_path = path.join(__dirname, '../', 'tmp');
 
 const uuid = require('./uuid');

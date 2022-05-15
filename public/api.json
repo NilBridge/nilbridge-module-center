@@ -1,0 +1,14 @@
+{
+     "backuphelper": {
+          "description": "backup worlds in group",
+          "author": "Lition",
+          "version": "1.0.0",
+          "path": "355a86b3-606a-44dc-a97c-a8edddfaf8d2/backuphelper.nbpack"
+     },
+     "bilibilisearch": {
+          "description": "check bilibili video in group",
+          "author": "Lition",
+          "version": "1.0.0",
+          "path": "641935c6-1413-4f7a-b742-5e9180b40596/bilibilisearch.nbpack"
+     }
+}
