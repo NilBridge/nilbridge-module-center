@@ -85,7 +85,7 @@ async function main() {
     await build_module();
     fs.writeFileSync(path.join(public_path ,'api.json'), JSON.stringify(api, null, 5));
     logs.succees = true;
-    fs.writeFileSync(path.join(public_path ,'lastest_build.json'), JSON.stringify(logs, null, 5));
+    fs.writeFileSync(path.join(public_path ,'lastest_build.json'), JSON.stringify({success:true,modules:logs}, null, 5));
     console.log('构建完成');
 }
 

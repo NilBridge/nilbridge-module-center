@@ -10,3 +10,14 @@
 [GET] /lastest_build.json
 ```
 
+``` json
+{
+     "BackupHelper": {
+          "succees": true  // 模块是否构建成功
+     },
+     "bilibiliSearch": {
+          "succees": true
+     },
+     "succees": true  // api是否构建成功
+}
+```

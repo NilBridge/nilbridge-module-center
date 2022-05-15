@@ -1,9 +1,12 @@
 {
-     "BackupHelper": {
+     "success": true,
+     "modules": {
+          "BackupHelper": {
+               "succees": true
+          },
+          "bilibiliSearch": {
+               "succees": true
+          },
           "succees": true
-     },
-     "bilibiliSearch": {
-          "succees": true
-     },
-     "succees": true
+     }
 }
