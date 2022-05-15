@@ -1,4 +1,4 @@
-echo "api.nilbridge.site" >> docs/CNAME
+echo api.nilbridge.site >> docs/CNAME
 
 git add . && git commit -m "test"
 
