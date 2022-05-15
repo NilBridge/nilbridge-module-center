@@ -3,12 +3,12 @@
           "description": "backup worlds in group",
           "author": "Lition",
           "version": "1.0.0",
-          "path": "5386ecc0-83a9-431a-b76f-1c1659c8482d/backuphelper.nbpack"
+          "path": "ff04313e-a5b6-4c41-88cd-fa6b6312a77e/backuphelper.nbpack"
      },
      "bilibilisearch": {
           "description": "check bilibili video in group",
           "author": "Lition",
           "version": "1.0.0",
-          "path": "12ef9426-09af-4105-9439-e2142bc4e578/bilibilisearch.nbpack"
+          "path": "e05d7f30-9d1b-4d06-bc3f-53f8be22f46b/bilibilisearch.nbpack"
      }
 }
