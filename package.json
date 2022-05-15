@@ -2,10 +2,15 @@
   "name": "ModuleShop",
   "version": "1.0.0",
   "description": "Center of modules for NilBridge",
-  "main": "./lib/main.js",
+  "scripts": {
+    "test": "node ./working/index.js"
+  },
   "keywords": [
     "nilbridge"
   ],
   "author": "Sbaoor",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "compressing": "^1.5.1"
+  }
 }
