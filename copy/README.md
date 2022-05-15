@@ -12,12 +12,40 @@
 
 ``` json
 {
-     "BackupHelper": {
-          "succees": true  // 模块是否构建成功
-     },
-     "bilibiliSearch": {
+     {
+     "success": true,  // 是否构建成功
+     "Date": "2022-05-15T03:44:01.542Z",  // 最后构建时间
+     "modules": {
+          "BackupHelper": {
+               "succees": true
+          },
+          "bilibiliSearch": {
+               "succees": true
+          },
           "succees": true
-     },
-     "succees": true  // api是否构建成功
+     }
+}
+}
+```
+如果有模块构建失败，会显示这样的内容
+
+``` json
+{
+     "success": true,
+     "Date": "2022-05-15T03:46:13.885Z",
+     "modules": {
+          "BackupHelper": {
+               "succees": false,  //构建失败
+               "err": {  //错误信息
+                    "errno": -4058,
+                    "syscall": "open",
+                    "code": "ENOENT",
+                    "path": "C:\\Users\\Lition\\Desktop\\ModuleShop\\modules_publish\\BackupHelper\\package.json"
+               }
+          },
+          "bilibiliSearch": {
+               "succees": true
+          }
+     }
 }
 ```

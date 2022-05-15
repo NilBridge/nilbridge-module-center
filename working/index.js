@@ -84,14 +84,13 @@ async function build_module() {
 async function main() {
     await build_module();
     fs.writeFileSync(path.join(public_path ,'api.json'), JSON.stringify(api, null, 5));
-    logs.succees = true;
-    fs.writeFileSync(path.join(public_path ,'lastest_build.json'), JSON.stringify({success:true,modules:logs}, null, 5));
+    fs.writeFileSync(path.join(public_path ,'lastest_build.json'), JSON.stringify({success:true,Date:new Date(),modules:logs}, null, 5));
     console.log('构建完成');
 }
 
 try {
     main();
 } catch (err) {
-    fs.writeFileSync(path.join(public_path ,'lastest_build.json'), JSON.stringify({ succees: false, err }));
+    fs.writeFileSync(path.join(public_path ,'lastest_build.json'), JSON.stringify({ succees: false,Date:new Date(), err }));
 }
 
