@@ -20,6 +20,8 @@ if (fs.existsSync(public_path)) {
 fs.mkdirSync(tmp_path);
 fs.mkdirSync(public_path);
 
+fs.copyFileSync('README.web.md',path.join(public_path,'README.md'));
+
 let logs = {};
 let api = {};
 
