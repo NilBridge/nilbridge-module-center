@@ -33,6 +33,9 @@ jobs:
         python main.py
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
+      run: |
+        git config --global github.user Lition
+        git config --global github.token $GITHUB_TOKEN
       env:
         REPO: self
         BRANCH: gh-pages
