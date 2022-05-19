@@ -32,8 +32,9 @@ jobs:
         pip install requests
         python main.py
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.3.3
-      with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        branch: gh-pages # The branch the action should deploy to.
-        folder: docs # The folder the action should deploy.
+      uses: s0/git-publish-subdir-action@develop
+      env:
+        REPO: git@github.com/NilBridge/nilbridge-module-center.git
+        BRANCH: gh-pages
+        FOLDER: docs
+        SSH_PRIVATE_KEY: ${{ secrets.ACCESS_TOKEN }}
