@@ -1,0 +1,31 @@
+{
+     "build_time": "2022-05-19 19:15:47",
+     "modules": {
+          "backuphelper": {
+               "version": "1.0.0",
+               "author": "Lition",
+               "github_check": {
+                    "success": true,
+                    "need_update": true,
+                    "new": "1.1.2"
+               },
+               "build": {
+                    "success": true,
+                    "path": "/1f64751306ed76c15995fbfc79fbf78d/backuphelper.nbpack"
+               }
+          },
+          "bilibilisearch": {
+               "version": "1.0.0",
+               "author": "Lition",
+               "github_check": {
+                    "success": false,
+                    "err_code": 404
+               },
+               "build": {
+                    "success": true,
+                    "path": "/1f64751306ed76c15995fbfc79fbf78d/bilibilisearch.nbpack"
+               }
+          }
+     },
+     "id": "1f64751306ed76c15995fbfc79fbf78d"
+}
