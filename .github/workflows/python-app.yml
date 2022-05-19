@@ -38,11 +38,11 @@ jobs:
         git config --global user.name "Lition"
         git config --global github.user Lition
         git config --global github.token $GITHUB_TOKEN
-        git remote add publish https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center/.git
+        git remote add publish https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center.git
         git checkout --orphan publish
         git commit -m "Auto commit version $version"
         git config -l | grep 'http\..*\.extraheader' | cut -d= -f1 | xargs -L1 git config --unset-all
-        git push --force https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center/.git publish:gh-pages
+        git push --force https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center.git publish:gh-pages
       env:
         REPO: self
         BRANCH: gh-pages
