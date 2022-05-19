@@ -1,0 +1,11 @@
+{
+    "name":"crojob",
+    "version": "1.0.3",
+    "description": "execute some timely job",
+    "author": "stranger",
+    "license": "GNU Affero General Public License v3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/246859/CronJob.git"
+    }
+}

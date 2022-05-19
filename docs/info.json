@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-05-19 19:15:47",
+     "build_time": "2022-05-19 19:47:35",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -11,7 +11,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/1f64751306ed76c15995fbfc79fbf78d/backuphelper.nbpack"
+                    "path": "/34a8a91f625ea7474d1a90a7936b63da/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -23,9 +23,21 @@
                },
                "build": {
                     "success": true,
-                    "path": "/1f64751306ed76c15995fbfc79fbf78d/bilibilisearch.nbpack"
+                    "path": "/34a8a91f625ea7474d1a90a7936b63da/bilibilisearch.nbpack"
+               }
+          },
+          "crojob": {
+               "version": "1.0.3",
+               "author": "stranger",
+               "github_check": {
+                    "success": false,
+                    "err_code": 404
+               },
+               "build": {
+                    "success": true,
+                    "path": "/34a8a91f625ea7474d1a90a7936b63da/crojob.nbpack"
                }
           }
      },
-     "id": "1f64751306ed76c15995fbfc79fbf78d"
+     "id": "34a8a91f625ea7474d1a90a7936b63da"
 }

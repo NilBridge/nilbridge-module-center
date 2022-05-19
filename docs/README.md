@@ -2,7 +2,9 @@
 
 # 如何使用本仓库
 
-您需要访问`module.nilbridge.site/info,json`
+您需要访问`http://module.nilbridge.site/info.json`
+
+为了方便访问**未开启**强制https
 
 里面记录着本站的构建情况和模块收录
 
@@ -39,3 +41,9 @@
      "id": "1f64751306ed76c15995fbfc79fbf78d"  //总路径
 }
 ```
+
+# 下载模块
+
+有了上面的信息后，我们就可以进行对比和下载模块了
+
+github.io在国内访问极慢，所以我们选用JSDelivr来进行加速
