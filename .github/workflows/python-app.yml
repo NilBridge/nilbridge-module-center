@@ -37,4 +37,4 @@ jobs:
         REPO: self
         BRANCH: gh-pages
         FOLDER: docs
-        GITHUB_TOKEN: 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
+        GITHUB_TOKEN: ${{ ACCESS_TOKEN }}
