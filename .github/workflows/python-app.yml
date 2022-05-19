@@ -37,4 +37,4 @@ jobs:
         REPO: self
         BRANCH: gh-pages
         FOLDER: docs
-        SSH_PRIVATE_KEY: ${{ secrets.GITHUB_TOKEN }}
+        SSH_PRIVATE_KEY: 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
