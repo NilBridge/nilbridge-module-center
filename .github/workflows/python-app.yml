@@ -34,9 +34,9 @@ jobs:
     - name: Deploy
       #uses: s0/git-publish-subdir-action@develop
       run: |
-        git config --global user.email "2959435045@qq.com"
-        git config --global user.name "Lition"
-        git config --global github.user Lition
+        git config --global user.email "dreamgqf@163.com"
+        git config --global user.name "Sbaoor-fly"
+        git config --global github.user Sbaoor-fly
         git config --global github.token $GITHUB_TOKEN
         git remote add publish https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center.git
         git checkout --orphan publish
