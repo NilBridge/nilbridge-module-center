@@ -50,6 +50,7 @@ dirs = os.listdir(config.pack_dir)
 
 
 def github_check(module,repo,version):
+    if(repo == None):return
     if(repo.get('url') == None):return
     type = repo.get('type')
     this_log['modules'][module]['github_check'] = {}
