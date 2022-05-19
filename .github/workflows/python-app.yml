@@ -32,10 +32,17 @@ jobs:
         pip install requests
         python main.py
     - name: Deploy
-      uses: s0/git-publish-subdir-action@develop
+      #uses: s0/git-publish-subdir-action@develop
       run: |
+        git config --global user.email "2959435045@qq.com"
+        git config --global user.name "Lition"
         git config --global github.user Lition
         git config --global github.token $GITHUB_TOKEN
+        git remote add publish https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center/.git
+        git checkout --orphan publish
+        git commit -m "Auto commit version $version"
+        git config -l | grep 'http\..*\.extraheader' | cut -d= -f1 | xargs -L1 git config --unset-all
+        git push --force https://NilBridge:$GITHUB_TOKEN@github.com/NilBridge/nilbridge-module-center/.git /你的仓库名 /.git publish:gh-pages
       env:
         REPO: self
         BRANCH: gh-pages
