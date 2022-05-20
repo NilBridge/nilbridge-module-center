@@ -34,8 +34,8 @@ jobs:
         python main.py
     - name: Commit files
       run: |
-        git config --local user.email "2959435045@qq.com"
-        git config --local user.name "Lotion802"
+        git config --global user.email "2959435045@qq.com"
+        git config --global user.name "Lotion802"
         git add .
         git commit -m "Add changes" -a
     - name: 推送
