@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-05-21 23:28:13",
+     "build_time": "2022-05-22 00:31:26",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -11,7 +11,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/09d615701bcbd330e3cebc58f7a72461/backuphelper.nbpack"
+                    "path": "/8bf2c962ab25b0a6fa12fb8ea1792a51/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -23,7 +23,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/09d615701bcbd330e3cebc58f7a72461/bilibilisearch.nbpack"
+                    "path": "/8bf2c962ab25b0a6fa12fb8ea1792a51/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -36,17 +36,21 @@
                },
                "build": {
                     "success": true,
-                    "path": "/09d615701bcbd330e3cebc58f7a72461/cronjob.nbpack"
+                    "path": "/8bf2c962ab25b0a6fa12fb8ea1792a51/cronjob.nbpack"
                }
           },
-          "ReadWorldWith60s": {
-               "version": "1.0.0",
+          "readworldwith60s": {
+               "version": "1.0.4",
                "author": "phj233",
+               "github_check": {
+                    "success": false,
+                    "err_code": 404
+               },
                "build": {
                     "success": true,
-                    "path": "/09d615701bcbd330e3cebc58f7a72461/ReadWorldWith60s.nbpack"
+                    "path": "/8bf2c962ab25b0a6fa12fb8ea1792a51/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "09d615701bcbd330e3cebc58f7a72461"
+     "id": "8bf2c962ab25b0a6fa12fb8ea1792a51"
 }
