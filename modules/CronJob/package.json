@@ -1,5 +1,5 @@
 {
-    "name":"cronjob",
+    "name": "cronjob",
     "version": "1.0.3",
     "description": "execute some timely job",
     "author": "stranger",
@@ -7,5 +7,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/246859/CronJob"
+    },
+    "dependencies": {
+        "node-cron": "^3.0.0"
     }
 }
