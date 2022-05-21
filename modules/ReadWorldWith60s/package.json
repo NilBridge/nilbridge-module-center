@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/phj233/ReadWorldWith60s.git"
+    "url": "git+https://github.com/phj233/ReadWorldWith60s"
   },
   "author": "phj233",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/phj233/ReadWorldWith60s/issues"
   },
-  "homepage": "https://github.com/phj233/ReadWorldWith60s#readme"
+  "homepage": "https://github.com/phj233/ReadWorldWith60s#readme",
+  "dependencies": {
+    "node-cron": "^3.0.0"
+  }
 }
