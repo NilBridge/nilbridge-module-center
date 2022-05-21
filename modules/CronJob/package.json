@@ -9,6 +9,6 @@
         "url": "https://github.com/246859/CronJob"
     },
     "dependencies": {
-        "node-cron": "^3.0.0"
+        "cron": "^2.0.0"
     }
 }
