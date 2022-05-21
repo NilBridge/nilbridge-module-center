@@ -3,7 +3,8 @@ import requests
 requests.packages.urllib3.disable_warnings()
 def github_update(repo_url:str):
     try:
-        repo =repo_url.split('github.com/')[1]
+        repo = repo_url.split('github.com/')[1]
+        repo = repo.split('.git')[0]
         r = requests.get(f'https://api.github.com/repos/{repo}',verify=False)
         if(r.status_code != 200):
             return {'find':False,'code':r.status_code}
