@@ -11,7 +11,7 @@
 ![](/doc/img/3.png)
 
 ``` bash
-git clone https://github.com/{你的用户名}/nilbridge-module-center.git
+git clone --recursive https://github.com/{你的用户名}/nilbridge-module-center.git
 ```
 
 ## 关联仓库

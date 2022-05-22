@@ -1,5 +1,9 @@
 chcp 65001
 @ECHO OFF
+git submodule init
+
+git submodule update
+
 pip install -r requirements.txt
 
 python main.py
