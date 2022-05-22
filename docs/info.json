@@ -1,17 +1,19 @@
 {
-     "build_time": "2022-05-22 08:01:19",
+     "build_time": "2022-05-22 09:38:29",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
                "author": "Lition",
                "github_check": {
                     "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "BackupHelper",
                     "need_update": true,
                     "new": "1.1.2"
                },
                "build": {
                     "success": true,
-                    "path": "/9462e5fb6b73f3469e6d0890d2658775/backuphelper.nbpack"
+                    "path": "/913e89359b6213e8ca75ab46bb06c252/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -23,7 +25,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/9462e5fb6b73f3469e6d0890d2658775/bilibilisearch.nbpack"
+                    "path": "/913e89359b6213e8ca75ab46bb06c252/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -31,12 +33,14 @@
                "author": "stranger",
                "github_check": {
                     "success": true,
+                    "owner": "246859",
+                    "repo_name": "CronJob",
                     "need_update": true,
                     "new": "cronjobv1.0.3"
                },
                "build": {
                     "success": true,
-                    "path": "/9462e5fb6b73f3469e6d0890d2658775/cronjob.nbpack"
+                    "path": "/913e89359b6213e8ca75ab46bb06c252/cronjob.nbpack"
                }
           },
           "readworldwith60s": {
@@ -44,14 +48,16 @@
                "author": "phj233",
                "github_check": {
                     "success": true,
+                    "owner": "phj233",
+                    "repo_name": "readWorldWith60s",
                     "need_update": true,
                     "new": "main"
                },
                "build": {
                     "success": true,
-                    "path": "/9462e5fb6b73f3469e6d0890d2658775/readworldwith60s.nbpack"
+                    "path": "/913e89359b6213e8ca75ab46bb06c252/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "9462e5fb6b73f3469e6d0890d2658775"
+     "id": "913e89359b6213e8ca75ab46bb06c252"
 }

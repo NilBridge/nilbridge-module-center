@@ -10,11 +10,15 @@
 </div>
 
 <script>
-axios('/doc/store.json').then((dt)=>{
+axios('/info.json').then((dt)=>{
     document.getElementById("Modules").innerHTML = '';
     for(let i in dt.data){
-        console.log(dt.data[i]);
-        getGithub(dt.data[i].owner,dt.data[i].repo_name)
+        let tmp = dt.data[i];
+        if(tmp.github_check != undefined){
+            if(tmp.github_check.success){
+                getGithub(tmp.github_check.ownertmp.github_check.repo_name);
+            }
+        }
     }
 })
 </script>

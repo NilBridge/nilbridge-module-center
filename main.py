@@ -60,6 +60,8 @@ def github_check(module,repo,version):
             if(check['find']):
                 logger.info(f'获取到 {module} 的 github 仓库信息，正在校验')
                 this_log['modules'][module]['github_check']['success'] = True
+                this_log['modules'][module]['github_check']['owner'] = check['owner']
+                this_log['modules'][module]['github_check']['repo_name'] = check['repo_name']
                 if(check['tag_name'] != version):
                     this_log['modules'][module]['github_check']['need_update'] = True
                     this_log['modules'][module]['github_check']['new'] = check['tag_name']

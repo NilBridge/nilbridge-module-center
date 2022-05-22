@@ -13,7 +13,8 @@ def github_update(repo_url:str):
         release = requests.get(f'{url}/releases/latest',verify=False)
         if(release.status_code != 200):
             return {'find':False,'code':release.status_code}
-        latest_tag = json.loads(release.text)['tag_name']
-        return {'find':True,'tag_name':latest_tag}
-    except:
+        latest = json.loads(release.text)
+        return {'find':True,'tag_name':latest['tag_name'],'owner':info['owner']['login'],'repo_name':info['name']}
+    except Exception as err:
+        print(err)
         return {'find':False,'code':0}
