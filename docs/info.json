@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-05-22 09:52:49",
+     "build_time": "2022-05-22 09:57:44",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/31b01b4fe9890264a272a4d4774cda6c/backuphelper.nbpack"
+                    "path": "/12bcd293b254839da0dac295f969101d/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/31b01b4fe9890264a272a4d4774cda6c/bilibilisearch.nbpack"
+                    "path": "/12bcd293b254839da0dac295f969101d/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -42,7 +42,21 @@
                },
                "build": {
                     "success": true,
-                    "path": "/31b01b4fe9890264a272a4d4774cda6c/cronjob.nbpack"
+                    "path": "/12bcd293b254839da0dac295f969101d/cronjob.nbpack"
+               }
+          },
+          "motdpe": {
+               "version": "1.0.1",
+               "author": "lition",
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "MOTDPE",
+                    "need_update": false
+               },
+               "build": {
+                    "success": true,
+                    "path": "/12bcd293b254839da0dac295f969101d/motdpe.nbpack"
                }
           },
           "readworldwith60s": {
@@ -57,9 +71,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/31b01b4fe9890264a272a4d4774cda6c/readworldwith60s.nbpack"
+                    "path": "/12bcd293b254839da0dac295f969101d/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "31b01b4fe9890264a272a4d4774cda6c"
+     "id": "12bcd293b254839da0dac295f969101d"
 }
