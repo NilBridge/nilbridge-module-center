@@ -21,7 +21,7 @@ axios('/info.json').then((dt)=>{
         }
     }
 }).catch(err=>{
-    
+    document.getElementById("Modules").innerHTML = err;
 })
 </script>
 
