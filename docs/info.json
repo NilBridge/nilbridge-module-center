@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-05-22 13:15:42",
+     "build_time": "2022-05-22 13:36:19",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7ac5a33964dc8a36d416d2aa2ad46d5a/backuphelper.nbpack"
+                    "path": "/e82caa9ddeced61b59faa92699babce9/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7ac5a33964dc8a36d416d2aa2ad46d5a/bilibilisearch.nbpack"
+                    "path": "/e82caa9ddeced61b59faa92699babce9/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -42,7 +42,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7ac5a33964dc8a36d416d2aa2ad46d5a/cronjob.nbpack"
+                    "path": "/e82caa9ddeced61b59faa92699babce9/cronjob.nbpack"
                }
           },
           "motdpe": {
@@ -56,7 +56,22 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7ac5a33964dc8a36d416d2aa2ad46d5a/motdpe.nbpack"
+                    "path": "/e82caa9ddeced61b59faa92699babce9/motdpe.nbpack"
+               }
+          },
+          "nil-net-api": {
+               "version": "1.0.0",
+               "author": "Lition",
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "Nil-net-api",
+                    "need_update": true,
+                    "new": "1.0.5fix"
+               },
+               "build": {
+                    "success": true,
+                    "path": "/e82caa9ddeced61b59faa92699babce9/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -71,9 +86,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7ac5a33964dc8a36d416d2aa2ad46d5a/readworldwith60s.nbpack"
+                    "path": "/e82caa9ddeced61b59faa92699babce9/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "7ac5a33964dc8a36d416d2aa2ad46d5a"
+     "id": "e82caa9ddeced61b59faa92699babce9"
 }

@@ -13,3 +13,6 @@
 [submodule "modules/readWorldWith60s"]
 	path = modules/readWorldWith60s
 	url = https://github.com/phj233/readWorldWith60s.git
+[submodule "modules/Nil-net-api"]
+	path = modules/Nil-net-api
+	url = https://github.com/NilBridge/Nil-net-api.git
