@@ -9,7 +9,7 @@
 <script>
 axios('/doc/store.json').then((dt)=>{
     document.getElementById("Modules").innerHTML = '';
-    for(let i in dt){
+    for(let i in dt.data){
         console.log(dt[i]);
         getGithub(dt[i].owner,dt[i].repo_name)
     }
