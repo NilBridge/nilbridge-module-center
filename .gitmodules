@@ -10,3 +10,6 @@
 [submodule "modules/BackupHelper"]
 	path = modules/BackupHelper
 	url = https://github.com/NilBridge/BackupHelper.git
+[submodule "modules/MCWIKI"]
+	path = modules/MCWIKI
+	url = https://github.com/iQiaFUN/MCWIKI.git

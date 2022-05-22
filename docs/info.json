@@ -1,62 +1,16 @@
 {
-     "build_time": "2022-05-22 10:24:29",
+     "build_time": "2022-05-22 11:00:47",
      "modules": {
-          "backuphelper": {
-               "version": "1.0.0",
-               "author": "Lition",
+          "mcwiki": {
+               "version": "1.1.0",
+               "author": "iQiaFUN",
                "github_check": {
-                    "success": true,
-                    "owner": "NilBridge",
-                    "repo_name": "BackupHelper",
-                    "need_update": true,
-                    "new": "1.1.2"
+                    "success": false,
+                    "err_code": 404
                },
                "build": {
                     "success": true,
-                    "path": "/dc8bca3a4b2ef9c20367770cd01140f3/backuphelper.nbpack"
-               }
-          },
-          "bilibilisearch": {
-               "version": "1.0.0",
-               "author": "Lition",
-               "github_check": {
-                    "success": true,
-                    "owner": "NilBridge",
-                    "repo_name": "bilibiliSearch",
-                    "need_update": false
-               },
-               "build": {
-                    "success": true,
-                    "path": "/dc8bca3a4b2ef9c20367770cd01140f3/bilibilisearch.nbpack"
-               }
-          },
-          "cronjob": {
-               "version": "1.0.3",
-               "author": "stranger",
-               "github_check": {
-                    "success": true,
-                    "owner": "246859",
-                    "repo_name": "CronJob",
-                    "need_update": true,
-                    "new": "cronjobv1.0.3"
-               },
-               "build": {
-                    "success": true,
-                    "path": "/dc8bca3a4b2ef9c20367770cd01140f3/cronjob.nbpack"
-               }
-          },
-          "motdpe": {
-               "version": "1.0.1",
-               "author": "lition",
-               "github_check": {
-                    "success": true,
-                    "owner": "NilBridge",
-                    "repo_name": "MOTDPE",
-                    "need_update": false
-               },
-               "build": {
-                    "success": true,
-                    "path": "/dc8bca3a4b2ef9c20367770cd01140f3/motdpe.nbpack"
+                    "path": "/3a7fef73246383c59e32656141e320d4/mcwiki.nbpack"
                }
           },
           "readworldwith60s": {
@@ -71,9 +25,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/dc8bca3a4b2ef9c20367770cd01140f3/readworldwith60s.nbpack"
+                    "path": "/3a7fef73246383c59e32656141e320d4/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "dc8bca3a4b2ef9c20367770cd01140f3"
+     "id": "3a7fef73246383c59e32656141e320d4"
 }
