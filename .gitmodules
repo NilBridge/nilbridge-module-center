@@ -10,3 +10,6 @@
 [submodule "modules/BackupHelper"]
 	path = modules/BackupHelper
 	url = https://github.com/NilBridge/BackupHelper.git
+[submodule "modules/readWorldWith60s"]
+	path = modules/readWorldWith60s
+	url = https://github.com/phj233/readWorldWith60s.git
