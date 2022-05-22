@@ -10,6 +10,7 @@
 axios('/doc/store.json').then((dt)=>{
     document.getElementById("Modules").innerHTML = '';
     for(let i in dt){
+        console.log(dt[i]);
         getGithub(dt[i].owner,dt[i].repo_name)
     }
 })

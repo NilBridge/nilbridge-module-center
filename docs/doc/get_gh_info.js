@@ -9,7 +9,10 @@ function getGithub(owner,repo_name){
         }
     };
     axios(options.url,options).then((dt)=>{
+        console.log(dt);
         document.getElementById("Modules").innerHTML+=getCard(dt);
+   }).catch(err=>{
+    document.getElementById("Modules").innerHTML+=`模块：${repo_name} 信息加载失败\n${err}`;
    });
 }
 
