@@ -12,8 +12,19 @@ function getGithub(owner,repo_name){
         console.log(dt);
         document.getElementById("Modules").innerHTML+=getCard(dt.data);
    }).catch(err=>{
-    document.getElementById("Modules").innerHTML+=`模块：${repo_name} 信息加载失败\n${err}`;
+    document.getElementById("Modules").innerHTML+=`模块：${repo_name} 信息加载失败<br>${err}`;
    });
+}
+
+function unit(number) {
+    let _number = number / 1000;
+    if (_number >= 1000) {
+        return parseFloat((_number / 1000).toFixed(1)) + 'm'
+    } else if (_number >= 1) {
+        return parseFloat(_number.toFixed(1)) + 'k'
+    } else {
+        return number;
+    }
 }
 
 function getCard(data){
