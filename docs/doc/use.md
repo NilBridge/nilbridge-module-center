@@ -12,14 +12,16 @@
 <script>
 axios('/info.json').then((dt)=>{
     document.getElementById("Modules").innerHTML = '';
-    for(let i in dt.data){
-        let tmp = dt.data[i];
+    for(let i in dt.data.modules){
+        let tmp = dt.data.modules[i];
         if(tmp.github_check != undefined){
             if(tmp.github_check.success){
                 getGithub(tmp.github_check.ownertmp.github_check.repo_name);
             }
         }
     }
+}).catch(err=>{
+    
 })
 </script>
 
