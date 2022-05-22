@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-05-22 09:38:29",
+     "build_time": "2022-05-22 09:50:29",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,19 +13,21 @@
                },
                "build": {
                     "success": true,
-                    "path": "/913e89359b6213e8ca75ab46bb06c252/backuphelper.nbpack"
+                    "path": "/e9872b2311334c501dec2a7ce5b0242d/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
                "version": "1.0.0",
                "author": "Lition",
                "github_check": {
-                    "success": false,
-                    "err_code": 404
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "bilibiliSearch",
+                    "need_update": false
                },
                "build": {
                     "success": true,
-                    "path": "/913e89359b6213e8ca75ab46bb06c252/bilibilisearch.nbpack"
+                    "path": "/e9872b2311334c501dec2a7ce5b0242d/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -40,7 +42,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/913e89359b6213e8ca75ab46bb06c252/cronjob.nbpack"
+                    "path": "/e9872b2311334c501dec2a7ce5b0242d/cronjob.nbpack"
                }
           },
           "readworldwith60s": {
@@ -55,9 +57,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/913e89359b6213e8ca75ab46bb06c252/readworldwith60s.nbpack"
+                    "path": "/e9872b2311334c501dec2a7ce5b0242d/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "913e89359b6213e8ca75ab46bb06c252"
+     "id": "e9872b2311334c501dec2a7ce5b0242d"
 }
