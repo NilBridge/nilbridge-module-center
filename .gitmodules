@@ -1,3 +1,12 @@
 [submodule "modules/MOTDPE"]
 	path = modules/MOTDPE
 	url = https://github.com/NilBridge/MOTDPE.git
+[submodule "modules/CronJob"]
+	path = modules/CronJob
+	url = https://github.com/246859/CronJob.git
+[submodule "modules/bilibiliSearch"]
+	path = modules/bilibiliSearch
+	url = https://github.com/NilBridge/bilibiliSearch.git
+[submodule "modules/BackupHelper"]
+	path = modules/BackupHelper
+	url = https://github.com/NilBridge/BackupHelper.git
