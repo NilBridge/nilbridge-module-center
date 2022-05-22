@@ -2,4 +2,4 @@
 
 这里是NilBridge的模块中心
 
-![](/docs//doc/img/6.png)
+![](https://s1.ax1x.com/2022/05/22/OxVMRK.md.png)
