@@ -4,10 +4,10 @@
 <script src="/doc/get_gh_info.js"></script>
 
 
+*排序不分先后，根据api响应速度排序*
 
 <div id="Modules">
 
-*排序不分先后，根据api响应速度排序*
 
 <p>加载中...</p>
 </div>
