@@ -1,5 +1,3 @@
-这里是NilBridge的模块中心，为开发者方便更新而建立，您也可以在这里下载模块
-
 # 如何使用本仓库
 
 您需要访问`http://modules.nilbridge.site/info.json`
