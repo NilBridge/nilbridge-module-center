@@ -2,5 +2,6 @@
 
 > 您有什么需求？
 
- - [我想要发布我的插件](/doc/publish)
- - [我想要从这下载插件](/doc/download)
+ - [我想要发布我的模块](/doc/publish)
+ 
+ - [我想要从这下载模块](/doc/download)
