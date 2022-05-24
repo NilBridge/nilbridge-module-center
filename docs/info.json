@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-05-24 21:07:01",
+     "build_time": "2022-05-24 21:10:33",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/backuphelper.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/bilibilisearch.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -42,19 +42,21 @@
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/cronjob.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/cronjob.nbpack"
                }
           },
           "module-template": {
                "version": "1.0.0",
                "author": "Sbaoor",
                "github_check": {
-                    "success": false,
-                    "err_code": 404
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "Module-template",
+                    "need_update": false
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/module-template.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/module-template.nbpack"
                }
           },
           "motdpe": {
@@ -68,7 +70,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/motdpe.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/motdpe.nbpack"
                }
           },
           "nil-net-api": {
@@ -83,7 +85,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/nil-net-api.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -98,9 +100,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/ee277c8d215ccd77f5d6cbbc81e937ff/readworldwith60s.nbpack"
+                    "path": "/3e5f5cb21edc77bbf6d9606721e14967/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "ee277c8d215ccd77f5d6cbbc81e937ff"
+     "id": "3e5f5cb21edc77bbf6d9606721e14967"
 }
