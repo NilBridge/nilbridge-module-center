@@ -1,0 +1,23 @@
+{
+  "name": "module-template",
+  "version": "1.0.0",
+  "description": "module base for nilbridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NilBridge/Module-template.git"
+  },
+  "keywords": [
+    "nilbridge",
+    "template"
+  ],
+  "author": "Sbaoor",
+  "license": "AGPL-v3.0",
+  "bugs": {
+    "url": "https://github.com/NilBridge/Module-template/issues"
+  },
+  "homepage": "https://github.com/NilBridge/Module-template#readme"
+}

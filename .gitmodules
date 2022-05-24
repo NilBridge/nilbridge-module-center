@@ -16,3 +16,6 @@
 [submodule "modules/Nil-net-api"]
 	path = modules/Nil-net-api
 	url = https://github.com/NilBridge/Nil-net-api.git
+[submodule "modules/module-template"]
+	path = modules/module-template
+	url = https://github.com/NilBridge/Module-template.git
