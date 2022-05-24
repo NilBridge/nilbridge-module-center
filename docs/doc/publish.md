@@ -26,6 +26,10 @@ git submodule add <你的仓库git地址> <文件夹路径>
 - 仓库地址为后缀有`.git`的地址
 - 文件夹路径为`modules/{模块名称}`
 
+此步骤一旦输入错误，回退非常麻烦。
+
+如果您输入了错误的文件路径，请参考[这篇文章](https://www.cnblogs.com/Akkuman/p/10911779.html)来移除子模块。
+
 ## 构建并推送
 
 执行`build_and_push.bat`
