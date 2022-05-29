@@ -19,3 +19,6 @@
 [submodule "modules/module-template"]
 	path = modules/module-template
 	url = https://github.com/NilBridge/Module-template.git
+[submodule "modules/MagicRecall"]
+	path = modules/MagicRecall
+	url = https://github.com/mrmagic2020/MagicRecall.git
