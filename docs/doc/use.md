@@ -1,7 +1,7 @@
  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css" integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
 
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-<script src="/doc/get_gh_info.js"></script>
+<script src="/doc/get_gh_info.min.js"></script>
 
 
 *排序不分先后，根据api响应速度排序*
