@@ -1,4 +1,4 @@
-function getGithub(owner,repo_name){
+function getGithub(owner, repo_name) {
     let options = {
         url: `https://api.github.com/repos/${owner}/${repo_name}`,
         method: 'GET',
@@ -8,27 +8,27 @@ function getGithub(owner,repo_name){
             'accept': 'application/vnd.github.v3+json',
         }
     };
-    axios(options.url,options).then((dt)=>{
+    axios(options.url, options).then((dt) => {
         console.log(dt);
-        document.getElementById("Modules").innerHTML+=getCard(dt.data);
-   }).catch(err=>{
-    document.getElementById("Modules").innerHTML+=`模块：${repo_name} 信息加载失败<br>${err}`;
-   });
+        document.getElementById("Modules").innerHTML += getCard(dt.data);
+    }).catch(err => {
+        document.getElementById("Modules").innerHTML += `模块：${repo_name} 信息加载失败<br>${err}`;
+    });
 }
 
 function unit(number) {
     let _number = number / 1000;
     if (_number >= 1000) {
-        return parseFloat((_number / 1000).toFixed(1)) + 'm'
+        return parseFloat((_number / 1000).toFixed(1)) + 'm';
     } else if (_number >= 1) {
-        return parseFloat(_number.toFixed(1)) + 'k'
+        return parseFloat(_number.toFixed(1)) + 'k';
     } else {
         return number;
     }
 }
 
-function getCard(data){
-    return    `
+function getCard(data) {
+    return `
    <div class="gr-card">
                     <div class="gr-header">
                         <img src="${data.owner.avatar_url}" alt="">
@@ -56,5 +56,5 @@ function getCard(data){
                         </div>
                     </div>
                 </div>
-      `
+      `;
 }
