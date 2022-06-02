@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-02 19:28:48",
+     "build_time": "2022-06-02 19:33:29",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/backuphelper.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/bilibilisearch.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -42,7 +42,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/cronjob.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/cronjob.nbpack"
                }
           },
           "magichitokoto": {
@@ -57,7 +57,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/magichitokoto.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/magichitokoto.nbpack"
                }
           },
           "magicrecall": {
@@ -72,7 +72,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/magicrecall.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/magicrecall.nbpack"
                }
           },
           "module-template": {
@@ -86,7 +86,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/module-template.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/module-template.nbpack"
                }
           },
           "motdpe": {
@@ -100,7 +100,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/motdpe.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/motdpe.nbpack"
                }
           },
           "nil-net-api": {
@@ -115,7 +115,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/nil-net-api.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -130,9 +130,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/4d0003f76e59f86059af4658e78866d0/readworldwith60s.nbpack"
+                    "path": "/a40e1749035df86442c67c257a8d641a/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "4d0003f76e59f86059af4658e78866d0"
+     "id": "a40e1749035df86442c67c257a8d641a"
 }
