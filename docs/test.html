@@ -62,37 +62,60 @@
         }
     </style>
 	-->
+
 <body>
-    <div class="button_container">
-        <button class="btn btn1"><span>Hover me!</span></button>
-        <button class="btn btn2"><span>Hover me! 成功</span></button>
-        <button class="btn btn3"><span>Hover me! 警告</span></button>
-        <button class="btn btn4"><span>Hover me! 失败</span></button>
-    </div>
+  <div class="button_container">
+    <button class="btn btn1"><span>Hover me!</span></button>
+    <button class="btn btn2"><span>Hover me! 成功</span></button>
+    <button class="btn btn3"><span>Hover me! 警告</span></button>
+    <button class="btn btn4"><span>Hover me! 失败</span></button>
+  </div>
+  <style>
+    div:before {
+      content: attr(title);
+      display: none;
+    }
 
+    div:hover::before {
+      width: 200px;
+      display: block;
+      background: yellow;
+      border: 1px solid black;
+      padding: 8px;
+      margin: 25px 0 0 10px;
+      position: absolute;
+    }
 
+    div:hover {
+      z-index: 10;
+      position: relative;
+    }
+  </style>
 
+<div title="Tooltip text for first div">啊啊啊</div> 
+<div title="Tooltip text for second div">哈哈哈</div>
 
-    <script>
-        $(".btn1").on("click", function() {
-            var tg = TGTool();
-            tg.info("提示");
-        })
+  <script>
+    $(".btn1").on("click", function () {
+      var tg = TGTool();
+      tg.info("提示");
+    })
 
-        $(".btn2").on("click", function() {
-            var tg = TGTool();
-            tg.success("成功");
-        })
+    $(".btn2").on("click", function () {
+      var tg = TGTool();
+      tg.success("成功");
+    })
 
-        $(".btn3").on("click", function() {
-            var tg = TGTool();
-            tg.warning("警告");
-        })
+    $(".btn3").on("click", function () {
+      var tg = TGTool();
+      tg.warning("警告");
+    })
 
-        $(".btn4").on("click", function() {
-            var tg = TGTool();
-            tg.error("失败");
-        })
-    </script>
+    $(".btn4").on("click", function () {
+      var tg = TGTool();
+      tg.error("失败");
+    })
+  </script>
 </body>
+
 </html>
