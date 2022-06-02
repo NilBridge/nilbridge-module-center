@@ -1,121 +1,80 @@
-<html>
-<script src="./static/tgtool.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<link rel="stylesheet" href="static/tgtool.css">
-<!--
-    <style>
-        body {
-        	margin: 0;
-        	height: 100%;
-        	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
-        	background-repeat: no-repeat;
-          background-size: cover;
-          background-attachment: fixed;
-        }
-		.button_container {
-        	position: absolute;
-          left: 0;
-          right: 0;
-          top: 30%;
-        }
-        		.btn {
-          border: none;
-          display: block;
-          text-align: center;
-          cursor: pointer;
-          text-transform: uppercase;
-          outline: none;
-          overflow: hidden;
-          position: relative;
-          color: #fff;
-          font-weight: 700;
-          font-size: 15px;
-          background-color: #222;
-          padding: 17px 60px;
-          margin: 0 auto;
-          box-shadow: 0 5px 15px rgba(0,0,0,0.20);
-        			margin-bottom: 20px;
-        }
-        
-        .btn span {
-          position: relative; 
-          z-index: 1;
-        }
-        
-        .btn:after {
-          content: "";
-          position: absolute;
-          left: 0;
-          top: 0;
-          height: 490%;
-          width: 140%;
-          background: #78c7d2;
-          -webkit-transition: all .5s ease-in-out;
-          transition: all .5s ease-in-out;
-          -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
-          transform: translateX(-98%) translateY(-25%) rotate(45deg);
-        }
-        
-        .btn:hover:after {
-          -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
-          transform: translateX(-9%) translateY(-25%) rotate(45deg);
-        }
-    </style>
-	-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS3实现各种操作提示框(警告，成功，失败，等待中)</title>
+</head>
+<style>
 
-<body>
-  <div class="button_container">
-    <button class="btn btn1"><span>Hover me!</span></button>
-    <button class="btn btn2"><span>Hover me! 成功</span></button>
-    <button class="btn btn3"><span>Hover me! 警告</span></button>
-    <button class="btn btn4"><span>Hover me! 失败</span></button>
-  </div>
-  <style>
-    div:before {
-      content: attr(title);
-      display: none;
-    }
-
-    div:hover::before {
-      width: 200px;
-      display: block;
-      background: yellow;
-      border: 1px solid black;
-      padding: 8px;
-      margin: 25px 0 0 10px;
-      position: absolute;
-    }
-
-    div:hover {
-      z-index: 10;
-      position: relative;
-    }
-  </style>
-
-<div title="Tooltip text for first div">啊啊啊</div> 
-<div title="Tooltip text for second div">哈哈哈</div>
-
-  <script>
-    $(".btn1").on("click", function () {
-      var tg = TGTool();
-      tg.info("提示");
-    })
-
-    $(".btn2").on("click", function () {
-      var tg = TGTool();
-      tg.success("成功");
-    })
-
-    $(".btn3").on("click", function () {
-      var tg = TGTool();
-      tg.warning("警告");
-    })
-
-    $(".btn4").on("click", function () {
-      var tg = TGTool();
-      tg.error("失败");
-    })
-  </script>
-</body>
-
+</style>
+    <body>
+      <section id="about-us" class="work section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="section-title">
+                <h2>了解我们</h2>
+                <p>
+                  基于Node.js，全平台兼容，
+                  全开源代码，
+                  性能优化极佳，
+                  文档完善，
+                  支持插件拓展，
+                  开箱即用
+                 </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-work">
+                <div class="serial">
+                  <span><i class="lni lni-home"></i></span>
+                </div>
+                <h3>Overview</h3>
+                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-work">
+                <div class="serial">
+                  <span><i class="lni lni-folder"></i></span>
+                </div>
+                <h3>Files</h3>
+                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-work last">
+                <div class="serial">
+                  <span><i class="lni lni-facebook-messenger"></i></span>
+                </div>
+                <h3>Meeting chats</h3>
+                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="single-work last">
+                <div class="serial">
+                  <span><i class="lni lni-download"></i></span>
+                </div>
+                <h3>Save events</h3>
+                <p>Lorem ipsum sit, consectetur adipiscing elit. Maecenas mi quam vulputate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
 </html>
+<script>
+    function showEx(id){
+        var obj = document.getElementById(id);
+        obj.style.display = "block";
+        setTimeout(function(){
+            obj.style.display = "none";
+        },2000);
+    }
+</script>

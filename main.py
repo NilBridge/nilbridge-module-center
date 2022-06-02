@@ -108,7 +108,7 @@ for module in dirs:
             this_log['modules'][name] = {'version':version,'author':author}
             logger.info(f'{name} 版本：{version} 作者：{author}')
             github_check(name,repository,version)
-            os.system(f'cd {module_path} && npm i')
+            os.system(f'cd {module_path} && npm i && del package-lock.json')
             pack_nbpack(name,module_path)
         else:
             logger.warning(f'无法找到 {module} 的信息文件')
