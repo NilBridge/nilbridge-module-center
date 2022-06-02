@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-02 19:25:35",
+     "build_time": "2022-06-02 19:28:48",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/backuphelper.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/backuphelper.nbpack"
                }
           },
           "bilibilisearch": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/bilibilisearch.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -42,7 +42,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/cronjob.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/cronjob.nbpack"
                }
           },
           "magichitokoto": {
@@ -57,7 +57,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/magichitokoto.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/magichitokoto.nbpack"
                }
           },
           "magicrecall": {
@@ -72,7 +72,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/magicrecall.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/magicrecall.nbpack"
                }
           },
           "module-template": {
@@ -86,7 +86,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/module-template.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/module-template.nbpack"
                }
           },
           "motdpe": {
@@ -100,7 +100,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/motdpe.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/motdpe.nbpack"
                }
           },
           "nil-net-api": {
@@ -115,7 +115,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/nil-net-api.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -130,9 +130,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/7d3bef03f22a04b5b341fff6f157a38d/readworldwith60s.nbpack"
+                    "path": "/4d0003f76e59f86059af4658e78866d0/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "7d3bef03f22a04b5b341fff6f157a38d"
+     "id": "4d0003f76e59f86059af4658e78866d0"
 }
