@@ -10,8 +10,6 @@
 *排序不分先后，根据api响应速度排序*
 
 <div id="Modules">
-
-
 <p>加载中...</p>
 </div>
 
@@ -21,13 +19,11 @@ axios('/info.json').then((dt)=>{
     for(let i in dt.data.modules){
         let tmp = dt.data.modules[i];
         if(tmp.github_check != undefined){
-            if(tmp.github_check.success){
-                getGithub(tmp.github_check.owner,tmp.github_check.repo_name);
-            }
+            getGithub(tmp.github_check.owner,tmp.github_check.repo_name);
         }
     }
 }).catch(err=>{
-    var tg = TGTool();
+    let tg = TGTool();
     tg.error('获取API失败！');
     document.getElementById("Modules").innerHTML = err;
 })
