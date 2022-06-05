@@ -9,12 +9,12 @@
 
 ## fork本仓库
 
-![](/doc/img/1.png)
-![](/doc/img/2.png)
+![](/img/1.png)
+![](/img/2.png)
 
 ## clone项目到本地
 
-![](/doc/img/3.png)
+![](/img/3.png)
 
 ``` bash
 git clone --recursive https://github.com/{你的用户名}/nilbridge-module-center.git
@@ -44,11 +44,11 @@ git submodule add <你的仓库git地址> <文件夹路径>
 
 进入你的仓库的`Pull requests`界面
 
-![](/doc/img/4.png)
+![](/img/4.png)
 
 发起新的合并请求，等待合并
 
-![](/doc/img/5.png)
+![](/img/5.png)
 
 ## 注意事项
 

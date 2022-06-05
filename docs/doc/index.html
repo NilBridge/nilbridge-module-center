@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+  <title>NilBridge-Modules</title>
+  <!-- Theme: Simple -->
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <!-- Test Stylesheets -->
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css"
+    integrity="sha256-2H3fkXt6FEmrReK448mDVGKb3WW2ZZw35gI7vqHOE4Y=" crossorigin="anonymous">
+
+  <script src="https://unpkg.zhimg.com/axios/dist/axios.min.js"></script>
+
+  <script src="/static/tgtool.js"></script>
+  <script src="/static/get_gh_info.js"></script>
+
+  <link rel="stylesheet" href="/static/tgtool.css">
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'NilBridgeDocs',
+      repo: 'https://github.com/NilBridge/nilbridge-module-center',
+      loadSidebar: true,
+      themeable: {
+        readyTransition: true, // default
+        responsiveTables: true // default
+      },
+      coverpage: 'coverpage.md',
+      executeScript: true,
+      search: {
+        depth: 3,
+        placeholder: '搜索',
+        noData: '啦啦啦...你找不到我~',
+      }
+    }
+  </script>
+  <style>
+    :root {
+
+      /* Nav Page Links */
+      --sidebar-nav-pagelink-background-image: ;
+      --sidebar-nav-pagelink-background-image--active: ;
+      --sidebar-nav-pagelink-background-image--collapse: ;
+      --sidebar-nav-pagelink-background-image--loaded: ;
+      --sidebar-nav-pagelink-background-position: ;
+      --sidebar-nav-pagelink-background-position--active: ;
+      --sidebar-nav-pagelink-background-position--collapse: ;
+      --sidebar-nav-pagelink-background-position--loaded: ;
+      --sidebar-nav-pagelink-background-size: ;
+      --sidebar-nav-pagelink-padding: ;
+      --sidebar-nav-pagelink-transition: var(--sidebar-nav-link-transition);
+
+
+    }
+  </style>
+  <!-- Docsify v4 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://fastly.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//fastly.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+</body>
+
+</html>

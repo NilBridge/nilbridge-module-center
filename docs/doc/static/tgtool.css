@@ -1,0 +1,83 @@
+.tgBtn{
+    height:12px;
+    border: 1px solid #dcdfe6;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 12px;
+}
+.tgAlertDiv{
+    z-index : 9999999;
+    left: 50%;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px 20px;
+}
+.tgtool{
+    -webkit-touch-callout: none; /* iOS Safari 
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently*/
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+@keyframes bounceInDown {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+        animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -300px, 0);
+    }
+    50% {
+        transform: translate3d(0, -300px, 0);
+    }
+    60% {
+        opacity: 1;
+        transform: translate3d(0, 25px, 0);
+    }
+    75% {
+        transform: translate3d(0, -10px, 0);
+    }
+    90% {
+        transform: translate3d(0, 5px, 0);
+    }
+    to {
+        transform: none;
+    }
+}
+.bounceInDown {
+    animation-name: bounceInDown;
+}
+
+@keyframes remove
+{
+	from {top:0px;}
+	to {top:-2000px;}
+}
+
+.remove {
+    animation:remove 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes removeTop
+{
+	from {top:0px;}
+	to {top:-50px;}
+}
+
+.removeTop {
+    animation:removeTop 1s;
+    animation-fill-mode: forwards;
+}
