@@ -33,6 +33,9 @@
         readyTransition: true, // default
         responsiveTables: true // default
       },
+      alias: { // 定义路由别名，可以更自由的定义路由规则。 支持正则
+        '/.*/sidebar.md': 'docs/sidebar.md'  //防止意外回退
+      },
       coverpage: 'docs/coverpage.md',
       homepage:"docs/init.md",
       executeScript: true,
@@ -45,7 +48,6 @@
   </script>
   <style>
     :root {
-
       /* Nav Page Links */
       --sidebar-nav-pagelink-background-image: ;
       --sidebar-nav-pagelink-background-image--active: ;
@@ -58,8 +60,6 @@
       --sidebar-nav-pagelink-background-size: ;
       --sidebar-nav-pagelink-padding: ;
       --sidebar-nav-pagelink-transition: var(--sidebar-nav-link-transition);
-
-
     }
   </style>
   <!-- Docsify v4 -->
