@@ -1,6 +1,6 @@
 
 <script>
-axios('http://modules.nilbridge.site/info.json').then((dt)=>{
+axios('/info.json').then((dt)=>{
     document.getElementById("Modules").innerHTML = '';
     for(let i in dt.data.modules){
         let tmp = dt.data.modules[i];
