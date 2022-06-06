@@ -1,6 +1,14 @@
 
 # 如何发布我的模块？
 
+本仓库用于收集 nilbridge 相关社区插件以及使用了其他语言 SDK 的项目
+
+如果您有这类项目，欢迎提交 Pull request 将您的项目添加到这里
+
+**注意：本仓库仅接受开源项目的仓库地址, 如 https://github.com/nilbridge/bilibiliSearch**
+
+**注意：请遵守开源协议并将你的项目开源许可证设置为AGPL-3.0**
+
 ## 准备工作
 
 - git客户端

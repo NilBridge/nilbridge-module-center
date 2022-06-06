@@ -1,3 +1,5 @@
+# 如何下载模块？
+
 您需要访问`http://modules.nilbridge.site/info.json`
 
 为了方便访问**未开启**强制https
