@@ -28,3 +28,6 @@
 [submodule "modules/MagicJokes"]
 	path = modules/MagicJokes
 	url = https://github.com/mrmagic2020/MagicJokes.git
+[submodule "modules/bilibiliDwonload"]
+	path = modules/bilibiliDwonload
+	url = https://github.com/Sbaoor-fly/bilibiliDwonload
