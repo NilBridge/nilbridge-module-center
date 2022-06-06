@@ -15,7 +15,7 @@ function getGithub(owner, repo_name) {
         console.log('get',dt.data.html_url);
         document.getElementById("Modules").innerHTML += getCard(dt.data);
     }).catch(err => {
-        document.getElementById("Modules").innerHTML += `模块：${repo_name} 信息加载失败<br>${err}<br>`;
+        document.getElementById("Modules").innerHTML += `<div id="zm_xgh">模块：${repo_name} 信息加载失败<br>${err}<br></div>`;
         let tg = TGTool();
         tg.error(`模块：${repo_name} 信息加载失败 : ${err}`);
     });
