@@ -1,0 +1,12 @@
+#err_box{
+    color: #555555;
+overflow: hidden;
+margin: 10px 0;
+padding: 15px 15px 15px 35px;
+/*border-radius: 10px;*/
+box-shadow: 6px 0 12px -5px rgb(253, 223, 234), -6px 0 12px -5px rgb(215, 240, 243);
+background-color: #FFDEE9;
+background-image: linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
+background-image: -webkit-linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
+}
+            
