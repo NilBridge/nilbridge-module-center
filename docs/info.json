@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-06 15:45:25",
+     "build_time": "2022-06-06 16:02:41",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/backuphelper.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/backuphelper.nbpack"
                }
           },
           "bilibilidwonload": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/bilibilidwonload.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/bilibilidwonload.nbpack"
                }
           },
           "bilibilisearch": {
@@ -41,7 +41,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/bilibilisearch.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -56,7 +56,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/cronjob.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/cronjob.nbpack"
                }
           },
           "magichitokoto": {
@@ -71,7 +71,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/magichitokoto.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/magichitokoto.nbpack"
                }
           },
           "magicjokes": {
@@ -86,7 +86,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/magicjokes.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/magicjokes.nbpack"
                }
           },
           "magicrecall": {
@@ -101,7 +101,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/magicrecall.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/magicrecall.nbpack"
                }
           },
           "module-template": {
@@ -115,45 +115,53 @@
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/module-template.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/module-template.nbpack"
                }
           },
           "motdpe": {
                "version": "1.0.1",
                "author": "lition",
                "github_check": {
-                    "success": false,
-                    "err_code": 403
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "MOTDPE",
+                    "need_update": false
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/motdpe.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/motdpe.nbpack"
                }
           },
           "nil-net-api": {
                "version": "1.0.0",
                "author": "Lition",
                "github_check": {
-                    "success": false,
-                    "err_code": 403
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "Nil-net-api",
+                    "need_update": true,
+                    "new": "1.0.5fix"
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/nil-net-api.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
                "version": "1.0.4",
                "author": "phj233",
                "github_check": {
-                    "success": false,
-                    "err_code": 403
+                    "success": true,
+                    "owner": "phj233",
+                    "repo_name": "readWorldWith60s",
+                    "need_update": true,
+                    "new": "main"
                },
                "build": {
                     "success": true,
-                    "path": "/435881186c698b9e7ff666d88c9b729e/readworldwith60s.nbpack"
+                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "435881186c698b9e7ff666d88c9b729e"
+     "id": "61b51b3e823f3e23205ed4d8bb6ff402"
 }
