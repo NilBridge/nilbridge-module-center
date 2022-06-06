@@ -26,17 +26,18 @@ axios('/info.json').then((dt)=>{
   
 
  <style>
-     #zm_xgh{
+            #zm_xgh{
         color: #555555;
     overflow: hidden;
     margin: 10px 0;
     padding: 15px 15px 15px 35px;
     /*border-radius: 10px;*/
-    box-shadow: 6px 0 12px -5px rgb(255, 176, 172), -6px 0 12px -5px rgb(255, 161, 174);
-    background-color: #c7503d66;
-    background-image: linear-gradient(220deg,#FF9A8B 0%,#ff6a8838 55%,#FF99AC 100%);
-    background-image: -webkit-linear-gradient(220deg,#ff9a8b7a 0%,#ff6a88ab 55%,#ff99ac82 100%);
+    box-shadow: 6px 0 12px -5px rgb(253, 223, 234), -6px 0 12px -5px rgb(215, 240, 243);
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
+    background-image: -webkit-linear-gradient(0deg,#ffdee9c4 0%,#b5fffc8f 100%);
 }
+
                 /* css part */
                 .gr-card {
 
