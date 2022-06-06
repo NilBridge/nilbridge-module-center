@@ -11,7 +11,7 @@ axios('/info.json').then((dt)=>{
 }).catch(err=>{
     let tg = TGTool();
     tg.error('获取API失败！');
-    document.getElementById("Modules").innerHTML = err;
+    document.getElementById("Modules").innerHTML = `<div id="err_box">${err}</div>`;
 })
 </script>
 
