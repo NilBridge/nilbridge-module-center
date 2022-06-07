@@ -1,5 +1,5 @@
 console.log("\n %c NilBridge 1.6.0 %c http://Nilbridge.site \n\n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;");
-let tg = TGTool();
+
 function getGithub(owner, repo_name) {
     let options = {
         url: `https://api.github.com/repos/${owner}/${repo_name}`,
@@ -11,6 +11,7 @@ function getGithub(owner, repo_name) {
             'accept': 'application/vnd.github.v3+json',
         }
     };
+    let tg = TGTool();
     axios(options.url, options).then((dt) => {
         console.log('get',dt.data.html_url);
         document.getElementById("Modules").innerHTML += getCard(dt.data);
