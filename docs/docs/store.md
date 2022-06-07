@@ -1,9 +1,9 @@
-*排序不分先后，根据api响应速度排序*
 
 <div id="Modules">
     <p>加载中...</p>
 </div>
 
+     
 
 <script>
 axios('/info.json').then((dt)=>{
@@ -20,5 +20,3 @@ axios('/info.json').then((dt)=>{
     document.getElementById("Modules").innerHTML = `<div id="err_box">${err}</div>`;
 })
 </script>
-<html>
-  
