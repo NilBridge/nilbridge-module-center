@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-06 16:02:41",
+     "build_time": "2022-06-08 22:55:55",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/backuphelper.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/backuphelper.nbpack"
                }
           },
           "bilibilidwonload": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/bilibilidwonload.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/bilibilidwonload.nbpack"
                }
           },
           "bilibilisearch": {
@@ -41,7 +41,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/bilibilisearch.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -56,7 +56,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/cronjob.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/cronjob.nbpack"
                }
           },
           "magichitokoto": {
@@ -71,7 +71,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/magichitokoto.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/magichitokoto.nbpack"
                }
           },
           "magicjokes": {
@@ -86,7 +86,19 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/magicjokes.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/magicjokes.nbpack"
+               }
+          },
+          "magicmusic": {
+               "version": "1.0.0",
+               "author": "Mr. Magic",
+               "github_check": {
+                    "success": false,
+                    "err_code": 404
+               },
+               "build": {
+                    "success": true,
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/magicmusic.nbpack"
                }
           },
           "magicrecall": {
@@ -101,7 +113,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/magicrecall.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/magicrecall.nbpack"
                }
           },
           "module-template": {
@@ -115,7 +127,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/module-template.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/module-template.nbpack"
                }
           },
           "motdpe": {
@@ -129,7 +141,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/motdpe.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/motdpe.nbpack"
                }
           },
           "nil-net-api": {
@@ -144,7 +156,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/nil-net-api.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -159,9 +171,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/61b51b3e823f3e23205ed4d8bb6ff402/readworldwith60s.nbpack"
+                    "path": "/13c276b39db80dbb813c5a960cc51f9a/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "61b51b3e823f3e23205ed4d8bb6ff402"
+     "id": "13c276b39db80dbb813c5a960cc51f9a"
 }

@@ -31,3 +31,6 @@
 [submodule "modules/bilibiliDwonload"]
 	path = modules/bilibiliDwonload
 	url = https://github.com/Sbaoor-fly/bilibiliDwonload
+[submodule "modules/MagicMusic"]
+	path = modules/MagicMusic
+	url = https://github.com/mrmagic2020/MagicMusic
