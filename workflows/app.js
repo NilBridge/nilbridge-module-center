@@ -15,7 +15,7 @@ function check(v,owner,repo){
             if(dt.data.name == v)return
             sendMessage(`模块[${repo}] 有新版本->[${dt.data.name}] !`);
         }else{
-            // send
+            sendMessage(`模块[${repo}] 检测失败->[${dt.status}] !`)
         }
     }).catch(err=>{
         console.log(err);
