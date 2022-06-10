@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-09 10:12:22",
+     "build_time": "2022-06-10 09:10:10",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/backuphelper.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/backuphelper.nbpack"
                }
           },
           "bilibilidwonload": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/bilibilidwonload.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/bilibilidwonload.nbpack"
                }
           },
           "bilibilisearch": {
@@ -41,7 +41,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/bilibilisearch.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -52,11 +52,11 @@
                     "owner": "246859",
                     "repo_name": "CronJob",
                     "need_update": true,
-                    "new": "cronjobv1.0.3"
+                    "new": "stable version Release"
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/cronjob.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/cronjob.nbpack"
                }
           },
           "magichitokoto": {
@@ -67,11 +67,11 @@
                     "owner": "mrmagic2020",
                     "repo_name": "MagicHitokoto",
                     "need_update": true,
-                    "new": "init"
+                    "new": "Release 1.0.0"
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/magichitokoto.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/magichitokoto.nbpack"
                }
           },
           "magicjokes": {
@@ -82,11 +82,11 @@
                     "owner": "mrmagic2020",
                     "repo_name": "MagicJokes",
                     "need_update": true,
-                    "new": "init"
+                    "new": "Release 1.0.0"
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/magicjokes.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/magicjokes.nbpack"
                }
           },
           "magicmusic": {
@@ -97,11 +97,11 @@
                     "owner": "mrmagic2020",
                     "repo_name": "MagicMusic",
                     "need_update": true,
-                    "new": "init"
+                    "new": "Release 1.0.0"
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/magicmusic.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/magicmusic.nbpack"
                }
           },
           "magicrecall": {
@@ -112,11 +112,11 @@
                     "owner": "mrmagic2020",
                     "repo_name": "MagicRecall",
                     "need_update": true,
-                    "new": "optimization"
+                    "new": "\u4f18\u5316\u66f4\u65b0"
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/magicrecall.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/magicrecall.nbpack"
                }
           },
           "module-template": {
@@ -126,11 +126,12 @@
                     "success": true,
                     "owner": "NilBridge",
                     "repo_name": "Module-template",
-                    "need_update": false
+                    "need_update": true,
+                    "new": "1.0.0."
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/module-template.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/module-template.nbpack"
                }
           },
           "motdpe": {
@@ -144,7 +145,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/motdpe.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/motdpe.nbpack"
                }
           },
           "nil-net-api": {
@@ -159,7 +160,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/nil-net-api.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -170,13 +171,13 @@
                     "owner": "phj233",
                     "repo_name": "readWorldWith60s",
                     "need_update": true,
-                    "new": "main"
+                    "new": "ReadWorldWith60s v.1.0.0"
                },
                "build": {
                     "success": true,
-                    "path": "/9fff589494fab847512bc905cf96fa84/readworldwith60s.nbpack"
+                    "path": "/773814407c5861dfa48f23dcf309e725/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "9fff589494fab847512bc905cf96fa84"
+     "id": "773814407c5861dfa48f23dcf309e725"
 }
