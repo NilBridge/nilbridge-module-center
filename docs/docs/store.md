@@ -11,7 +11,7 @@ axios('/info.json').then((dt)=>{
     for(let i in dt.data.modules){
         let tmp = dt.data.modules[i];
         if(tmp.github_check != undefined){
-            getGithub(tmp.github_check.owner,tmp.github_check.repo_name);
+            getGithub(i,tmp.github_check.owner,tmp.github_check.repo_name);
         }
     }
 }).catch(err=>{

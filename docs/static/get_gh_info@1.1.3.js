@@ -1,6 +1,6 @@
 console.log("\n %c NilBridge 1.6.0 %c http://Nilbridge.site \n\n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;");
 
-function getGithub(owner, repo_name) {
+function getGithub(module,owner, repo_name) {
     let options = {
         url: `https://api.github.com/repos/${owner}/${repo_name}`,
         method: 'GET',
@@ -17,7 +17,7 @@ function getGithub(owner, repo_name) {
         document.getElementById("Modules").innerHTML += getCard(dt.data);
     }).catch(err => {
         document.getElementById("Modules").innerHTML += `<div id="err_box">模块：${repo_name} 信息加载失败<br>${err}<br></div>`;
-        tg.error(`模块：${repo_name} 信息加载失败 : ${err}`);
+        tg.error(`模块：${module} 信息加载失败 : ${err}`);
     });
 }
 

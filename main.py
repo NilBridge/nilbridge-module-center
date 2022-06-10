@@ -65,10 +65,13 @@ def github_check(module,repo,version):
                 if(check['tag_name'] != version):
                     this_log['modules'][module]['github_check']['need_update'] = True
                     this_log['modules'][module]['github_check']['new'] = check['tag_name']
+                    return True
                 else:
                     this_log['modules'][module]['github_check']['need_update'] = False
             else:
                 this_log['modules'][module]['github_check']['success'] = False
+                this_log['modules'][module]['github_check']['owner'] = check['owner']
+                this_log['modules'][module]['github_check']['repo_name'] = check['repo_name']
                 this_log['modules'][module]['github_check']['err_code'] = check['code']
                 logger.warning(f'无法获取 {module} 的 github 仓库信息')
         finally:
@@ -77,6 +80,7 @@ def github_check(module,repo,version):
         this_log['modules'][module]['github_check']['success'] = False
         this_log['modules'][module]['github_check']['err_code'] = 444
         logger.warning(f'模块 {module} 使用了未支持的仓库方式：{type}')
+        return False
 
 def pack_nbpack(name,path):
     try:
@@ -107,8 +111,9 @@ for module in dirs:
             repository = package_data.get('repository')
             this_log['modules'][name] = {'version':version,'author':author}
             logger.info(f'{name} 版本：{version} 作者：{author}')
-            github_check(name,repository,version)
-            os.system(f'cd {module_path} && git pull && npm i --save && del package-lock.json')
+            if(github_check(name,repository,version)):
+                os.system(f'cd {module_path} && git pull')
+            os.system(f'cd {module_path} && npm i --save && del package-lock.json')
             pack_nbpack(name,module_path)
         else:
             logger.warning(f'无法找到 {module} 的信息文件')
