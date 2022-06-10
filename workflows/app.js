@@ -4,6 +4,7 @@ var sessionKey;
 
 axios.post('http://mc.lition.online:3999/verify',{qq:2837945976,verifyKey:'114514'}).then(dt=>{
     sessionKey = dt.data.sessionKey;
+    sendMessage('认证成功：获取到工作ID ： '+sessionKey);
 }).catch(res=>{
     throw new Error('无法认证');
 })
@@ -24,7 +25,7 @@ function check(v,owner,repo){
 function sendMessage(raw){
     axios.post('http://mc.lition.online:3999/sendGuildMessage',{
         sessionKey,
-        "messageChain": [{"type": "text","raw": raw}],
+        "messageChain": [{"type": "text","raw": '[ActionBot]'+raw}],
 	    "guild_id": '41929441648861097',
         "channel_id":'7008946'
     }).catch(err=>console.log);
@@ -32,8 +33,8 @@ function sendMessage(raw){
 
 
 for(let mod in info.modules){
-    let info = info.modules[mod];
+    let tmp = info.modules[mod];
     if(info.github_check){
-        check(info.version,info.github_check.owner,info.github_check.repo_name);
+        check(tmp.version,tmp.github_check.owner,tmp.github_check.repo_name);
     }
 }
