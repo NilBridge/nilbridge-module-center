@@ -34,7 +34,7 @@ function sendMessage(raw){
 
 for(let mod in info.modules){
     let tmp = info.modules[mod];
-    if(info.github_check){
+    if(tmp.github_check){
         check(tmp.version,tmp.github_check.owner,tmp.github_check.repo_name);
     }
 }
