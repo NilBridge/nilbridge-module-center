@@ -20,5 +20,4 @@ jobs:
 
       # 生成静态文件
       - name: send message
-        run: 'cd workflows && npm i'
-        run: 'node app.js'
+        run: 'cd workflows && npm i && node app.js'
