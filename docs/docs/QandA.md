@@ -79,7 +79,6 @@
 </div>
 
 <div class="card">
-    <a href="#.">
         <div class="card-image">
             <img src="http://www.loveo.cc/wp-content/uploads/2017/02/card-image.jpg"
             alt="Orange" />
@@ -103,5 +102,4 @@
                 </p>
             </div>
         </div>
-    </a>
 </div>
