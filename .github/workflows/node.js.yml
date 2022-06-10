@@ -20,4 +20,5 @@ jobs:
 
       # 生成静态文件
       - name: send message
-        run: 'curl mc.lition.online:3999/verify -X POST -d @/workflows/data.json --header "Content-Type: application/json"'
+        run: 'cd workflows && npm i'
+        run: 'node app.js'
