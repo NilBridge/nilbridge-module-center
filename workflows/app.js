@@ -1,20 +1,39 @@
 const axios = require('axios').default;
 const info = require('../docs/info.json');
-
+var sessionKey;
 
 axios.post('http://mc.lition.online:3999/verify',{qq:2837945976,verifyKey:'114514'}).then(dt=>{
-    let sessionKey = dt.data.sessionKey;
+    sessionKey = dt.data.sessionKey;
+}).catch(res=>{
+    throw new Error('无法认证');
+})
+
+function check(v,owner,repo){
+    axios(`https://api.github.com/repos/${owner}/${repo}/releases/latest`).then(dt=>{
+        if(dt.status == 200){
+            if(dt.data.name == v)return
+            sendMessage(`模块[${repo}] 有新版本->[${dt.data.name}] !`);
+        }else{
+            // send
+        }
+    }).catch(err=>{
+        console.log(err);
+    })
+}
+
+function sendMessage(raw){
     axios.post('http://mc.lition.online:3999/sendGuildMessage',{
         sessionKey,
-        "messageChain": [{
-		"type": "text",
-		"raw": "[NilBridge-module-center] 构建已开始"
-	    }],
+        "messageChain": [{"type": "text","raw": raw}],
 	    "guild_id": '41929441648861097',
         "channel_id":'7008946'
-    }).then(re=>{
-        console.log(re.data);
-    });
-}).catch(res=>{
+    }).catch(err=>console.log);
+}
 
-})
+
+for(let mod in info.modules){
+    let info = info.modules[mod];
+    if(info.github_check){
+        check(info.version,info.github_check.owner,info.github_check.repo_name);
+    }
+}
