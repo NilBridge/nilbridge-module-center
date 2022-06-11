@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-11 13:12:39",
+     "build_time": "2022-06-11 13:14:36",
      "modules": {
           "nil-net-api": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/nil-net-api.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/nil-net-api.nbpack"
                }
           },
           "backuphelper": {
@@ -28,7 +28,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/backuphelper.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/backuphelper.nbpack"
                }
           },
           "motdpe": {
@@ -42,7 +42,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/motdpe.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/motdpe.nbpack"
                }
           },
           "magicmusic": {
@@ -57,7 +57,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/magicmusic.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/magicmusic.nbpack"
                }
           },
           "cronjob": {
@@ -72,7 +72,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/cronjob.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/cronjob.nbpack"
                }
           },
           "bilibilisearch": {
@@ -86,7 +86,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/bilibilisearch.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/bilibilisearch.nbpack"
                }
           },
           "magicrecall": {
@@ -101,7 +101,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/magicrecall.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/magicrecall.nbpack"
                }
           },
           "readworldwith60s": {
@@ -116,7 +116,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/readworldwith60s.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/readworldwith60s.nbpack"
                }
           },
           "module-template": {
@@ -131,7 +131,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/module-template.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/module-template.nbpack"
                }
           },
           "joincheck": {
@@ -145,7 +145,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/joincheck.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/joincheck.nbpack"
                }
           },
           "bilibilidwonload": {
@@ -159,7 +159,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/bilibilidwonload.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/bilibilidwonload.nbpack"
                }
           },
           "magicjokes": {
@@ -174,7 +174,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/magicjokes.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/magicjokes.nbpack"
                }
           },
           "magichitokoto": {
@@ -189,9 +189,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/a91f9e53a3bef48185fd0760d215b79e/magichitokoto.nbpack"
+                    "path": "/68079c643e0397de5ce939478502d0e8/magichitokoto.nbpack"
                }
           }
      },
-     "id": "a91f9e53a3bef48185fd0760d215b79e"
+     "id": "68079c643e0397de5ce939478502d0e8"
 }
