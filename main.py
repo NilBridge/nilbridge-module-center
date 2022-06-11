@@ -51,6 +51,7 @@ def github_check(module,repo,version):
     if(repo == None):return
     if(repo.get('url') == None):return
     type = repo.get('type')
+    this_log['modules'][module] = {}
     this_log['modules'][module]['github_check'] = {}
     if(type == 'git'):
         try:
@@ -109,15 +110,16 @@ for module in dirs:
             repository = package_data.get('repository')
             if(github_check(name,repository,version)):
                 os.system(f'cd {module_path} && git pull origin main')
-                with open(json_path,'r') as package2:
-                    package_data2 = json.loads(package2.read())
-                    logger.info(f'{module} 信息读取完毕')
-                    name = package_data2.get('name')
-                    version = package_data2.get('version')
-                    author = package_data2.get('author')
-                    repository = package_data2.get('repository')
+                with open(json_path,'r') as package:
+                    package_data = json.loads(package.read())
                 package.close()
-            this_log['modules'][name] = {'version':version,'author':author}
+                logger.info(f'{module} 信息更新完毕')
+                name = package_data.get('name')
+                version = package_data.get('version')
+                author = package_data.get('author')
+                repository = package_data.get('repository')
+            this_log['modules'][name]['version'] = version
+            this_log['modules'][name]['author'] = author
             logger.info(f'{name} 版本：{version} 作者：{author}')
             os.system(f'cd {module_path} && npm i --save && del package-lock.json')
             pack_nbpack(name,module_path)

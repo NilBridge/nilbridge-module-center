@@ -39,5 +39,5 @@ def github_update(repo_url:str):
         latest = json.loads(release.text)
         return {'find':True,'tag_name':latest['tag_name'],'owner':info['owner']['login'],'repo_name':info['name']}
     except Exception as err:
-        print(err)
+        logger.error(err)
         return {'find':False,'code':-1}
