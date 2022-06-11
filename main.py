@@ -110,7 +110,7 @@ for module in dirs:
             this_log['modules'][name] = {'version':version,'author':author}
             logger.info(f'{name} 版本：{version} 作者：{author}')
             if(github_check(name,repository,version)):
-                os.system(f'cd {module_path} && git pull')
+                os.system(f'cd {module_path} && git pull origin main')
             os.system(f'cd {module_path} && npm i --save && del package-lock.json')
             pack_nbpack(name,module_path)
         else:
