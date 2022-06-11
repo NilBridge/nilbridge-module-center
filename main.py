@@ -39,7 +39,6 @@ publish_path = os.path.join(config.publish_path,time_md5)
 
 checkDir(publish_path)
 
-
 if(last_log.get('id') != None):
     old_path = os.path.join(config.publish_path,last_log.get('id'))
     if(os.path.exists(old_path)):
@@ -47,7 +46,6 @@ if(last_log.get('id') != None):
         shutil.rmtree(old_path)
 
 dirs = os.listdir(config.pack_dir)    
-
 
 def github_check(module,repo,version):
     if(repo == None):return
@@ -123,7 +121,7 @@ for module in dirs:
     finally:
         logger.info(f'{module} 文件夹 执行完毕')
 
-out_file = open('.\\docs\\info.json','w+')
+out_file = open(os.path.join('docs','info.json'),'w+')
 json.dump(this_log,out_file,indent=5,skipkeys=True)
 logger.info('写入 info.json 完毕')
 logger.info(this_log)
