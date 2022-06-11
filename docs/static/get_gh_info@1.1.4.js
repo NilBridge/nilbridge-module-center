@@ -1,11 +1,15 @@
 console.log("\n %c NilBridge 1.6.0 %c http://Nilbridge.site \n\n","color: #fadfa3; background: #030307; padding:5px 0;","background: #fadfa3; padding:5px 0;");
 
+function b64Decode (str) {
+    return decodeURIComponent(atob(str));
+}
+
 function getGithub(module,owner, repo_name) {
     let options = {
         url: `https://api.github.com/repos/${owner}/${repo_name}`,
         method: 'GET',
         headers: {
-            'Authorization':'token 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',
+            'Authorization':'token '+b64Decode('Z2hwX0ZYNkQ3QjdkTVhCRXBqOTJ3U2VhRGRjNEtFSlBuTjBjc1NxaQ=='),
             //'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/91.0.4472.114',
             'Content-Type': 'application/json',
             'accept': 'application/vnd.github.v3+json',

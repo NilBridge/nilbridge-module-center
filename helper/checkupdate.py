@@ -2,6 +2,12 @@ import json
 import requests
 from loguru import logger
 requests.packages.urllib3.disable_warnings()
+import base64
+token = 'Z2hwX0ZYNkQ3QjdkTVhCRXBqOTJ3U2VhRGRjNEtFSlBuTjBjc1NxaQ=='
+b64_byt =base64.b64decode( token).decode('utf8')
+
+
+
 def github_update(repo_url:str):
     try:
         repo = repo_url.split('github.com/')[1]
@@ -14,12 +20,15 @@ def github_update(repo_url:str):
         'referer': 'https://item-paimai.taobao.com/pmp_item/609160317276.htm?s=pmp_detail&spm=a213x.7340941.2001.61.1aec2cb6RKlKoy',
         'sec-fetch-mode': 'cors',
         "sec-fetch-site": 'same-origin',
-        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36',
+        'user-agent': 'Lition802',
         'x-requested-with': 'XMLHttpRequest',
-        'Authorization':'token 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'
+        'Authorization':'token '+b64_byt
         }
+        
         r = requests.get(headers=header,url=f'https://api.github.com/repos/{repo}',verify=False)
-        logger.info(f'get https://api.github.com/repos/{repo} with code:{r.status_code}')
+        print(f'get https://api.github.com/repos/{repo} with code:{r.status_code}')
+        limit = r.headers.get('X-RateLimit-Remaining')
+        logger.info(f'剩余请求次数：{limit}')
         if(r.status_code != 200): #仓库未找到
             return {'find':False,'code':r.status_code}
         info = json.loads(r.text)
