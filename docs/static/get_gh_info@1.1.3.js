@@ -5,7 +5,7 @@ function getGithub(module,owner, repo_name) {
         url: `https://api.github.com/repos/${owner}/${repo_name}`,
         method: 'GET',
         headers: {
-            'Authorization':'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',
+            'Authorization':'token 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',
             //'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/91.0.4472.114',
             'Content-Type': 'application/json',
             'accept': 'application/vnd.github.v3+json',
