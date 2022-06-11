@@ -36,3 +36,6 @@ jobs:
         BRANCH: gh-pages 
         FOLDER: docs
         FORCE: true
+        clean: true
+        clean-exclude: |
+            info.json
