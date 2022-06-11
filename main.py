@@ -125,4 +125,6 @@ for module in dirs:
 
 out_file = open('.\\docs\\info.json','w+')
 json.dump(this_log,out_file,indent=5,skipkeys=True)
+logger.info('写入 info.json 完毕')
+logger.info(this_log)
 out_file.close()
