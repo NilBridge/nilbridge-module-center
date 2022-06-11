@@ -47,7 +47,7 @@ git submodule add <你的仓库git地址> <文件夹路径>
 
 ## 构建并推送
 
-执行`build_and_push.bat`
+执行`push.bat`
 
 ## 发起pr，等待合并
 
