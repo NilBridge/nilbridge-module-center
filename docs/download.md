@@ -54,7 +54,7 @@
 
 虽然jsdelivr的缓存很难绕过，但是我们可以用更新访问路径的方式来跳过缓存
 
-拼接url：`https://fastly.jsdelivr.net/gh/NilBridge/nilbridge-module-center@master/docs{path}`
+拼接url：`https://fastly.jsdelivr.net/gh/NilBridge/nilbridge-module-center@gh-pages{path}`
 
 这里的`path`就是上面`build`中的`path`，直接访问就可以通过jsdelivr提供的高速cdn获取到文件
 
