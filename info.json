@@ -1,5 +1,195 @@
 {
-     "build_time": "2022-06-11 13:22:09",
-     "modules": {},
-     "id": "5915a3218ede411a4831cca473a3ee9e"
+     "build_time": "2022-06-11 13:35:57",
+     "modules": {
+          "nil-net-api": {
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "Nil-net-api",
+                    "need_update": false
+               },
+               "version": "1.1.0",
+               "author": "Lition",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/nil-net-api.nbpack"
+               }
+          },
+          "backuphelper": {
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "BackupHelper",
+                    "need_update": true,
+                    "new": "1.1.2"
+               },
+               "version": "1.0.0",
+               "author": "Lition",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/backuphelper.nbpack"
+               }
+          },
+          "motdpe": {
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "MOTDPE",
+                    "need_update": false
+               },
+               "version": "1.0.1",
+               "author": "lition",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/motdpe.nbpack"
+               }
+          },
+          "magicmusic": {
+               "github_check": {
+                    "success": true,
+                    "owner": "mrmagic2020",
+                    "repo_name": "MagicMusic",
+                    "need_update": true,
+                    "new": "v1.0.2"
+               },
+               "version": "1.0.0",
+               "author": "Mr. Magic",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/magicmusic.nbpack"
+               }
+          },
+          "cronjob": {
+               "github_check": {
+                    "success": true,
+                    "owner": "246859",
+                    "repo_name": "CronJob",
+                    "need_update": true,
+                    "new": "cronjobv1.0.3"
+               },
+               "version": "1.0.3",
+               "author": "stranger",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/cronjob.nbpack"
+               }
+          },
+          "bilibilisearch": {
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "bilibiliSearch",
+                    "need_update": false
+               },
+               "version": "1.0.0",
+               "author": "Lition",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/bilibilisearch.nbpack"
+               }
+          },
+          "magicrecall": {
+               "github_check": {
+                    "success": true,
+                    "owner": "mrmagic2020",
+                    "repo_name": "MagicRecall",
+                    "need_update": true,
+                    "new": "optimization"
+               },
+               "version": "1.0.0",
+               "author": "Mr. Magic",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/magicrecall.nbpack"
+               }
+          },
+          "readworldwith60s": {
+               "github_check": {
+                    "success": true,
+                    "owner": "phj233",
+                    "repo_name": "readWorldWith60s",
+                    "need_update": true,
+                    "new": "main"
+               },
+               "version": "1.0.4",
+               "author": "phj233",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/readworldwith60s.nbpack"
+               }
+          },
+          "module-template": {
+               "github_check": {
+                    "success": true,
+                    "owner": "NilBridge",
+                    "repo_name": "Module-template",
+                    "need_update": false
+               },
+               "version": "1.0.0",
+               "author": "Sbaoor",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/module-template.nbpack"
+               }
+          },
+          "joincheck": {
+               "github_check": {
+                    "success": true,
+                    "owner": "Lition802",
+                    "repo_name": "JoinCheck",
+                    "need_update": false
+               },
+               "version": "1.1.0",
+               "author": "Lition",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/joincheck.nbpack"
+               }
+          },
+          "bilibilidwonload": {
+               "github_check": {
+                    "success": true,
+                    "owner": "Sbaoor-fly",
+                    "repo_name": "bilibiliDwonload",
+                    "need_update": false
+               },
+               "version": "1.0.0",
+               "author": "Sbaoor",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/bilibilidwonload.nbpack"
+               }
+          },
+          "magicjokes": {
+               "github_check": {
+                    "success": true,
+                    "owner": "mrmagic2020",
+                    "repo_name": "MagicJokes",
+                    "need_update": true,
+                    "new": "init"
+               },
+               "version": "1.0.0",
+               "author": "Mr. Magic",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/magicjokes.nbpack"
+               }
+          },
+          "magichitokoto": {
+               "github_check": {
+                    "success": true,
+                    "owner": "mrmagic2020",
+                    "repo_name": "MagicHitokoto",
+                    "need_update": true,
+                    "new": "init"
+               },
+               "version": "1.0.0",
+               "author": "Mr. Magic",
+               "build": {
+                    "success": true,
+                    "path": "/731bceb5d57b60de54a06250dfc87a09/magichitokoto.nbpack"
+               }
+          }
+     },
+     "id": "731bceb5d57b60de54a06250dfc87a09"
 }
