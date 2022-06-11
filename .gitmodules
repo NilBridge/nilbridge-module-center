@@ -34,3 +34,6 @@
 [submodule "modules/MagicMusic"]
 	path = modules/MagicMusic
 	url = https://github.com/mrmagic2020/MagicMusic
+[submodule "modules/JoinCheck"]
+	path = modules/JoinCheck
+	url = https://github.com/Lition802/JoinCheck.git

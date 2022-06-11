@@ -1,5 +1,5 @@
 {
-     "build_time": "2022-06-10 10:01:50",
+     "build_time": "2022-06-11 12:08:07",
      "modules": {
           "backuphelper": {
                "version": "1.0.0",
@@ -13,7 +13,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/backuphelper.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/backuphelper.nbpack"
                }
           },
           "bilibilidwonload": {
@@ -27,7 +27,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/bilibilidwonload.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/bilibilidwonload.nbpack"
                }
           },
           "bilibilisearch": {
@@ -41,7 +41,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/bilibilisearch.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/bilibilisearch.nbpack"
                }
           },
           "cronjob": {
@@ -56,7 +56,21 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/cronjob.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/cronjob.nbpack"
+               }
+          },
+          "joincheck": {
+               "version": "1.0.0",
+               "author": "Lition",
+               "github_check": {
+                    "success": true,
+                    "owner": "Lition802",
+                    "repo_name": "JoinCheck",
+                    "need_update": false
+               },
+               "build": {
+                    "success": true,
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/joincheck.nbpack"
                }
           },
           "magichitokoto": {
@@ -71,7 +85,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/magichitokoto.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/magichitokoto.nbpack"
                }
           },
           "magicjokes": {
@@ -86,7 +100,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/magicjokes.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/magicjokes.nbpack"
                }
           },
           "magicmusic": {
@@ -101,7 +115,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/magicmusic.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/magicmusic.nbpack"
                }
           },
           "magicrecall": {
@@ -116,7 +130,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/magicrecall.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/magicrecall.nbpack"
                }
           },
           "module-template": {
@@ -131,7 +145,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/module-template.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/module-template.nbpack"
                }
           },
           "motdpe": {
@@ -145,7 +159,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/motdpe.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/motdpe.nbpack"
                }
           },
           "nil-net-api": {
@@ -160,7 +174,7 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/nil-net-api.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/nil-net-api.nbpack"
                }
           },
           "readworldwith60s": {
@@ -175,9 +189,9 @@
                },
                "build": {
                     "success": true,
-                    "path": "/e84b34baf5060ec0d2f8a760c4273036/readworldwith60s.nbpack"
+                    "path": "/bc2490ad73400924e0dde6971b20c4a6/readworldwith60s.nbpack"
                }
           }
      },
-     "id": "e84b34baf5060ec0d2f8a760c4273036"
+     "id": "bc2490ad73400924e0dde6971b20c4a6"
 }
