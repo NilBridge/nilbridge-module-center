@@ -67,3 +67,4 @@ function getCard(data) {
                 </div>
       `;
 }
+
