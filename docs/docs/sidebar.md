@@ -3,5 +3,4 @@
 [下载模块](/docs/download.md)
 [实现方法](/docs/work.md)
  - 在线服务
-   - [在线websocket](/docs/online/ws)
    - [新冠肺炎实时新闻](/docs/online/news)
