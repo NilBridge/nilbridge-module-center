@@ -1,8 +1,5 @@
 var in_ws = false;
 var ws;
-function show(msg){
-    document.getElementById('output').innerHTML += '<br>'+msg+'<br>';
-}
 
 function query(event){
     if(event.keyCode == 13){
