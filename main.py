@@ -1,6 +1,7 @@
 import shutil
 import json
-import time
+import time,datetime
+import pytz
 from loguru import logger
 import os
 import hashlib
@@ -10,16 +11,17 @@ import config
 # -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 last_log = {}
+tz = pytz.timezone('Asia/Shanghai')
 this_log = {
-    'build_time':time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())),
+    'build_time':datetime.datetime.fromtimestamp(int(time.time()), tz).strftime('%Y-%m-%d %H:%M:%S %Z%z'),
     'modules':{}
 }
 
 
-time_md5 = hashlib.md5(time.strftime('%Y-%m-%d %H:%M:%S',time.localtime(time.time())).encode(encoding='UTF-8')).hexdigest()
+time_md5 = hashlib.md5(this_log['build_time'].encode(encoding='UTF-8')).hexdigest()
 logger.info(f'获取到临时id：{time_md5}')
 this_log['id'] = time_md5
-
+print(this_log['build_time'])
 
 if os.path.exists('.\\docs\\info.json'):
     with open('.\\docs\\info.json','r') as f:
