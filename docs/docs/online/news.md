@@ -4,7 +4,8 @@
 window.callbackcontentdtos= (res)=>{
     window.news = res;
     window.page = 0;
-    document.getElementById('news').innerHTML+=res[window.page].abs;
+    console.log(res[0]);
+    document.getElementById('news').innerHTML+=`<h1>${res[window.page].title}</h1>`+res[window.page].abs;
     /*res.forEach(k=>{
         console.log(k);
         document.getElementById('news').innHTML+=k.abs;
@@ -12,7 +13,7 @@ window.callbackcontentdtos= (res)=>{
 }
 window.nextPage = ()=>{
     window.page+=1;
-    document.getElementById('news').innerHTML=window.news[window.page].abs;
+    document.getElementById('news').innerHTML=`<h1>${window.news[window.page].title}</h1>`+window.news[window.page].abs;
 }
 axios('https://cdn.mdeer.com/contentdtos.js?callback=callbackcontentdtos&t='+new Date()).then(
     dt=>{
