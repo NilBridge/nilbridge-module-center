@@ -1,18 +1,19 @@
 {
-     "build_time": "2022-06-14 20:15:44 CST+0800",
+     "build_time": "2022-06-15 01:41:42 CST+0800",
      "modules": {
           "nil-net-api": {
                "github_check": {
                     "success": true,
                     "owner": "NilBridge",
                     "repo_name": "Nil-net-api",
-                    "need_update": false
+                    "need_update": true,
+                    "new": "1.1.1"
                },
-               "version": "1.1.0",
+               "version": "1.1.1",
                "author": "Lition",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/nil-net-api.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/nil-net-api.nbpack"
                }
           },
           "backuphelper": {
@@ -27,7 +28,7 @@
                "author": "Lition",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/backuphelper.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/backuphelper.nbpack"
                }
           },
           "motdpe": {
@@ -41,7 +42,7 @@
                "author": "lition",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/motdpe.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/motdpe.nbpack"
                }
           },
           "magicmusic": {
@@ -56,7 +57,7 @@
                "author": "Mr. Magic",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/magicmusic.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/magicmusic.nbpack"
                }
           },
           "cronjob": {
@@ -71,7 +72,7 @@
                "author": "stranger",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/cronjob.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/cronjob.nbpack"
                }
           },
           "bilibilisearch": {
@@ -85,7 +86,7 @@
                "author": "Lition",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/bilibilisearch.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/bilibilisearch.nbpack"
                }
           },
           "magicrecall": {
@@ -100,7 +101,7 @@
                "author": "Mr. Magic",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/magicrecall.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/magicrecall.nbpack"
                }
           },
           "readworldwith60s": {
@@ -115,7 +116,7 @@
                "author": "phj233",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/readworldwith60s.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/readworldwith60s.nbpack"
                }
           },
           "module-template": {
@@ -129,7 +130,7 @@
                "author": "Sbaoor",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/module-template.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/module-template.nbpack"
                }
           },
           "joincheck": {
@@ -143,7 +144,7 @@
                "author": "Lition",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/joincheck.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/joincheck.nbpack"
                }
           },
           "bilibilidwonload": {
@@ -157,7 +158,7 @@
                "author": "Sbaoor",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/bilibilidwonload.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/bilibilidwonload.nbpack"
                }
           },
           "magicjokes": {
@@ -172,7 +173,7 @@
                "author": "Mr. Magic",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/magicjokes.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/magicjokes.nbpack"
                }
           },
           "magichitokoto": {
@@ -187,9 +188,9 @@
                "author": "Mr. Magic",
                "build": {
                     "success": true,
-                    "path": "/898372f713185b5218a81ea14edc740b/magichitokoto.nbpack"
+                    "path": "/aa70703c38427058645425247eeeef04/magichitokoto.nbpack"
                }
           }
      },
-     "id": "898372f713185b5218a81ea14edc740b"
+     "id": "aa70703c38427058645425247eeeef04"
 }
