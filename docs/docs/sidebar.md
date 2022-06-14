@@ -3,4 +3,6 @@
 [下载模块](/docs/download.md)
 [实现方法](/docs/work.md)
  - 在线服务
-   - [新冠肺炎实时新闻](/docs/online/news)
+   - [新冠肺炎实时新闻](/docs/online/c9news)
+   - [央视新闻](/docs/online/ysnews)
+   - [30秒读懂世界](/docs/online/daynews)
