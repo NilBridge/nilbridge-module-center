@@ -37,3 +37,6 @@
 [submodule "modules/JoinCheck"]
 	path = modules/JoinCheck
 	url = https://github.com/Lition802/JoinCheck.git
+[submodule "modules/fp-manager"]
+	path = modules/fp-manager
+	url = https://github.com/NilBridge/fp-manager.git
